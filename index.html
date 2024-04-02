@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+   <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Rohan Linking -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous"
+/>
+<!-- <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"
+></script> -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap"
+  rel="stylesheet"
+/>
+    <title>Vinegar Food Restaurant</title>
+</head>
+<body >
+    <!-- Header Starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-dark fixed-top" style=" background: rgba( 255, 255, 255, 0.5 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 2px );
+        -webkit-backdrop-filter: blur( 2px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#hero" style=" font-weight: bolder; font-size: 1.5rem;"><span class="logotext"><span id="word1">Vinegar</span></span>
+                <span class="logotext"><span id="word2">Food</span></span> 
+                <span class="logotext"><span id="word3">Restaurant</span></span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#aboutus">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#meals">Meals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#awards">Awards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#catering">Catering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#rotm">ROTM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contactus">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#feedback">Feedback</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Hero Section Starts -->
+    <section id="hero">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img id="si1" src="./Assets/Slider Images/image3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 >Vinegar Food <br> Restaurant</h1>
+                  <h3 >Taste The Tradition <br>Delight In Every Bite</h3>
+                  <h6  style="font-weight: lighter;">Serving Joy On Every Plate: <br>Where Flavor Meets Heart
+                  </h6>
+                   <!-- Call to Action btn -->
+          <a href="#"><button>Order Now</button></a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img id="si2" src="./Assets/Slider Images/image2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 >Vinegar Food <br> Restaurant</h1>
+                  <h3 >Taste The Tradition <br>Delight In Every Bite</h3>
+                  <h6  style="font-weight: lighter;">Serving Joy On Every Plate: <br>Where Flavor Meets Heart
+                  </h6>
+                   <!-- Call to Action btn -->
+          <a href="#"><button>Order Now</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img id="si3" src="./Assets/Slider Images/image1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 >Vinegar Food <br> Restaurant</h1>
+                  <h3 >Taste The Tradition <br>Delight In Every Bite</h3>
+                  <h6  style="font-weight: lighter;">Serving Joy On Every Plate: <br>Where Flavor Meets Heart
+                  </h6>
+                   <!-- Call to Action btn -->
+          <a href="#"><button>Order Now</button></a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+     <!-- About Us Section Starts -->
+     <section id="aboutus">
+        <section id="about-us" class="py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h2 class="section-title" style="color: #FF5733;">About Us</h2>
+                  <p class="section-description">
+                    Welcome to <span class="label">Vinegar Food Restaurant </span>, where culinary artistry meets heartfelt hospitality. Nestled in the heart of Karachi, our journey began with a passion for creating memorable dining experiences.
+                  </p>
+                  <p>
+                    At <span class="label">Vinegar Food Restaurant </span>, we believe in the power of good food to bring people together. Our chefs, driven by creativity and a dedication to quality, curate a menu that celebrates the rich tapestry of flavors.
+                  </p>
+                  <p>
+                    Beyond the delicious dishes, our commitment extends to creating an ambiance that resonates with warmth and sophistication. Whether you're here for a casual meal or a special celebration, every moment at <span class="label">Vinegar Food Restaurant </span> is crafted to be extraordinary.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <img id="aboutusimg" src="./Assets/about us/[Downloader.la]-65b80a2084bb8.jpg" alt="About Us Image" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </section>
+     </section>
+     <!-- About Us Section Ends -->
+
+      <!-- Meals Section Starts -->
+    <section id="meals">
+      <center><h3 style="color: #FF5733; text-decoration: underline;">Culinary Symphony for Every Palate</h3> <p>Indulge in a symphony of flavors at <span class="label">Vinegar Food Restaurant </span> Our diverse meals are crafted with passion, showcasing a culinary journey that transcends boundaries. From carefully selected ingredients to expertly crafted dishes, our menu is a celebration of taste and creativity.</p>
+      <p>Discover the perfect harmony of flavors with our extensive meal options. Whether you're savoring our signature dishes or exploring culinary innovations, each meal at <span class="label">Vinegar Food Restaurant </span> is an invitation to experience the artistry of our kitchen. Join us for a culinary escapade where every bite is a note in the melody of exceptional dining.</p></center>
+      
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container text-center">
+                <h2 style="color: #FF5733;">Regular</h2>
+                <p>Embrace the classics with our regular menu, featuring timeless favorites infused with our unique culinary twists.</p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Regular/Balsamic Glazed Chicken.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Balsamic Glazed Chicken</h5>
+                          <p class="card-text">Grilled chicken with a luscious balsamic glaze, served with roasted vegetables.</p>
+                          <a href="#" class="btn btn-primary orderNow">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Regular/Vinegar-Infused Beef Stir-Fry.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar-Infused Beef Stir-Fry</h5>
+                          <p class="card-text">Tender beef strips stir-fried in a tangy vinegar-based sauce, accompanied by colorful vegetables.
+                        </p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Regular/Mushroom Risotto with White Wine Vinegar.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mushroom Risotto with White Wine Vinegar</h5>
+                          <p class="card-text">Creamy mushroom risotto enhanced with the subtle flavor of white wine vinegar.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container text-center">
+                <h2 style="color: #FF5733;">Lunch</h2>
+                <p> Elevate your midday break with our lunch offerings, carefully curated to balance nourishment and indulgence.</p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Lunch/Vinegar-Marinated Chicken Caesar Wrap.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar-Marinated Chicken Caesar Wrap</h5>
+                          <p class="card-text">Grilled chicken, crisp romaine lettuce, and Caesar dressing with a hint of vinegar, wrapped in a tortilla.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Lunch/Caprese Salad with Balsamic Reduction.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Caprese Salad with Balsamic Reduction</h5>
+                          <p class="card-text"> Fresh mozzarella, tomatoes, and basil drizzled with a sweet balsamic reduction.
+                        </p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Lunch/Vinegar-Glazed Salmon BLT.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar-Glazed Salmon BLT</h5>
+                          <p class="card-text">Salmon fillet glazed in a tangy vinegar sauce, served in a BLT sandwich.
+                        </p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container text-center">
+                <h2 style="color: #FF5733;">Snacks</h2>
+                <p> Dive into delightful snacks that blend bold flavors, perfect for those moments of savory cravings.
+                </p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Snacks/Balsamic Beet Chips.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Balsamic Beet Chips</h5>
+                          <p class="card-text">Thinly sliced beets baked to a crisp perfection with a flavorful balsamic glaze.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img  class="cardimgs" src="./Assets/meals/Snacks/Vinegar-Dipped Sweet Potato Fries.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar-Dipped Sweet Potato Fries</h5>
+                          <p class="card-text">Sweet potato fries served with a side of vinegar dipping sauce for a delightful snack.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img  class="cardimgs" src="./Assets/meals/Snacks/Pickled Vegetable Skewers.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pickled Vegetable Skewers</h5>
+                          <p class="card-text"> Assorted vegetables artfully pickled in vinegar, served on skewers for a tangy twist.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container text-center">
+                <h2 style="color: #FF5733;">Desert</h2>
+                <p>Conclude your meal on a sweet note with our decadent desserts, each crafted to satisfy the most discerning sweet tooth.
+                </p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Dessert/Balsamic Strawberry Shortcake.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Balsamic Strawberry Shortcake</h5>
+                          <p class="card-text"> Classic strawberry shortcake elevated with a balsamic-infused strawberry topping.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Dessert/Vinegar Chocolate Mousse.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar Chocolate Mousse</h5>
+                          <p class="card-text"> Rich chocolate mousse with a subtle tang from a hint of vinegar, creating a unique flavor profile.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs"  src="./Assets/meals/Dessert/Citrus Vinegar Sorbet.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Citrus Vinegar Sorbet</h5>
+                          <p class="card-text"> Refreshing sorbet with a citrusy twist from vinegar, perfect for cleansing the palate.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container text-center">
+                <h2 style="color: #FF5733;">Beverages</h2>
+                <p>Quench your thirst with our refreshing beverage selection, featuring inventive concoctions and classic favorites.</p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs" src="./Assets/meals/Beverages/Balsamic Berry Lemonade.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Balsamic Berry Lemonade</h5>
+                          <p class="card-text">Berry-infused lemonade with a touch of balsamic vinegar, providing a refreshing and tangy experience.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img  class="cardimgs"src="./Assets/meals/Beverages/Vinegar Mint Iced Tea.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vinegar Mint Iced Tea</h5>
+                          <p class="card-text">Iced tea infused with the invigorating flavors of mint and a splash of vinegar.</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="cardimgs" src="./Assets/meals/Beverages/Sparkling Cucumber Vinegar Cooler.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sparkling Cucumber Vinegar Cooler</h5>
+                          <p class="card-text">A crisp and effervescent beverage featuring cucumber and a hint of vinegar for a unique twist</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Meals Section Ends -->
+
+     <!-- Gallery Section Starts -->
+     <section id="gallery">
+      <center> <h4 style="color: #FF5733; text-decoration: underline;">A Visual Feast for the Senses</h4>
+        <p>Immerse yourself in the visual delights captured within the walls of <p class="label">Vinegar Food Restaurant</p>. Our gallery is a testament to the artistry that goes into every dish, the warmth of our hospitality, and the unforgettable moments shared by our cherished guests.</p> <p>Explore our gallery to witness the vibrant colors, meticulous presentations, and the genuine joy that permeates the atmosphere at <span class="label">Vinegar Food Restaurant </span>. From intimate celebrations to culinary masterpieces, each image tells a story of the exceptional experiences created within our walls.</p>
+        <h3 style="color: #FF5733;">Experience VINEGAR FOOD RESTAURANT Through Our Lens</h3>
+            <P>Visit our gallery to be transported into the world of [Your Restaurant Name]. Each image is a glimpse into the passion, creativity, and warmth that define our culinary haven.</P></center>
+     
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./Assets/Gallery/1.jpg" alt="Image 1">
+          <div class="gallery-overlay">
+            <p>Savor the flavors of perfection in every dish</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Gallery/2.jpg" alt="Image 2">
+          <div class="gallery-overlay">
+            <p>A symphony of colors and tastes, crafted for culinary enthusiasts</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Gallery/3.jpg" alt="Image 3">
+          <div class="gallery-overlay">
+            <p>Elegance on every plate, a feast for the eyes and the palate.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./Assets/Gallery/4.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>An intimate ambiance, where every meal tells a story</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/5.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>Culinary artistry captured in every exquisite detail.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/6.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>Indulge in a journey of taste with our delectable creations</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/7.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>From farm to table, a celebration of fresh, vibrant ingredients.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/8.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>experience the essence of fine dining.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/9.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>Where passion meets plate</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/10.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>A culinary adventure awaits with our gastronomic masterpieces</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/11.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>Savor the flavors of perfection in every dish</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./Assets/Gallery/12.jpg" alt="Image 3">
+            <div class="gallery-overlay">
+              <p>Where passion meets plate</p>
+            </div>
+          </div>
+         
+            
+        
+     </section>
+     <!-- Gallery Section Ends -->
+
+      <!-- Awards Section Starts -->
+    <section id="awards">
+      <center> <h3 id="awardheading">Celebrating Culinary Excellence</h3>
+        <p>At <span class="label">Vinegar Food Restaurant </span>, our commitment to culinary innovation and exceptional dining experiences has garnered recognition and acclaim. We are honored to have received several prestigious awards that showcase our dedication to excellence in the food industry.</p></center>
+      
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img  class="awardsimg" src="./Assets/awards/awards1.jpeg" alt="">
+            <h5>Culinary Achievement Award</h5>
+            <p>Recognized for pushing the boundaries of flavor and presentation, our Culinary Achievement Award highlights our commitment to delivering extraordinary gastronomic experiences.</p>
+          </div>
+          <div class="col">
+            <img  class="awardsimg"src="./Assets/awards/award2.jpeg" alt="">
+            <h5>Best Restaurant Design</h5>
+            <p> Beyond exceptional cuisine, our restaurant's ambiance and design have been acknowledged with the Best Restaurant Design award, creating an inviting space for memorable dining moments.
+            </p>
+          </div>
+          <div class="col">
+            <img  class="awardsimg"src="./Assets/awards/33.jpeg" alt="">
+            <h5>Innovation in Flavor Award</h5>
+            <p>We take pride in receiving the Innovation in Flavor Award, a testament to our continuous exploration of unique and harmonious taste profiles that set us apart in the culinary landscape.</p>
+          </div>
+          <div class="col">
+            <img class="awardsimg" src="./Assets/awards/award4.jpeg" alt="">
+            <h5>Community Excellence Award</h5>
+            <p>Acknowledging our dedication to community engagement and support, the Community Excellence Award reflects our commitment to giving back and being an integral part of the neighborhoods we serve.</p>
+          </div>
+          <center> <p>At <span class="label">Vinegar Food Restaurant </span>, these awards inspire us to continually raise the bar and provide unparalleled experiences for our valued patrons.</p></center>
+         
+        </div>
+      </div>
+    </section>
+    <!-- Awards Section Ends -->
+
+     <!-- Catering Section Starts -->
+     <section id="catering">
+      <center> <h3 id="catheading">Elevate Your Events with Our Catering Services</h3> <p>At <span class="label">Vinegar Food Restaurant </span>
+         we extend our culinary expertise beyond our restaurant walls to elevate your special events. Our catering services bring the same dedication to quality, creativity, and flavor that define our restaurant experience.
+      </p> </center>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img  class="catimg" src="./Assets/Catering/img1.jpeg" alt="">
+            <h5>Tailored Menus for Every Occasion</h5>
+            <p> Whether it's a wedding, corporate event, or intimate gathering, our catering services offer meticulously curated menus tailored to suit the unique requirements and preferences of your event.</p>
+          </div>
+          <div class="col">
+            <img class="catimg" src="./Assets/Catering/img2.jpeg" alt="">
+            <h5>Professional Event Coordination</h5>
+            <p>Relax and enjoy your event as our professional team takes care of every detail. From planning to execution, our event coordination services ensure a seamless and stress-free experience for you and your guests.</p>
+          </div>
+          <div class="col">
+            <img class="catimg" src="./Assets/Catering/img3.jpeg" alt="">
+            <h5>Customization to Delight Your Guests</h5>
+            <p>We understand that every event is unique. Our catering services allow for customization, enabling you to create a menu that delights your guests and aligns perfectly with the theme and atmosphere of your occasion.</p>
+          </div>
+          <div class="col">
+            <img class="catimg" src="./Assets/Catering/img4.jpeg" alt="">
+            <h5>Exceptional Culinary Experiences</h5>
+            <p>Elevate your event with the same exceptional culinary experiences that define Vinegar Food Restaurant. Our chefs bring their expertise to your venue, ensuring a memorable gastronomic journey for all attendees.</p>
+          </div>
+          <center><p>From intimate gatherings to grand celebrations, trust <span class="label">Vinegar Food Restaurant </span> to add a touch of culinary excellence to your events. Contact us to discuss how we can make your special moments extraordinary.</p></center>
+          
+        </div>
+      </div>
+     </section>
+     <!-- Catering Section Ends -->
+
+      <!-- Recipe of the month Section Starts -->
+    <section id="rotm">
+      <div id="container">
+        <div id="imageDiv">
+            
+          <img id="glazedHoney" src="./Assets/rotm/glazed-honey-balsamic-chicken-recipe.jpg" class="img-fluid" alt="..." style="width: 460px; height: 320px;">
+        </div>
+
+        <div id="textBoxDiv">
+          <span id="mainHeading"><b style="color: #FF5733;">RECIPE OF THE MONTH</b></span>
+            <p><h4 id="recipeName">Balsamic Glazed Chicken</h4></p>
+            <span><h6 id="recipeIngredient">Grilled chicken with a luscious balsamic glaze, served with roasted vegetables.</h6></span>
+            <p>An easy, unassuming balsamic marinade takes your average baked chicken dinner to a new level of delicious!
+
+              This juicy, garlicky, appropriately sticky balsamic chicken recipe takes less than 10 minutes to prep. Once tossed in the quick marinade with balsamic glaze, garlic, lemon juice, and herbs, put it in the oven for 30 minutes or so.
+              
+              I’m a big fan of chicken thighs for quick weeknight dinners; besides, it’s really hard to mess them up. Simply make a quick dry rub or toss them in a flavorful marinade with bold spices, and you have dinner!</p>
+        </div>
+    </div>
+    </section>
+    <!-- Recipe of the month Section Ends -->
+
+     <!-- Contact us Section Starts -->
+     <section id="contactus">
+      <div id="formarea">
+        <form class="mt-5">
+          <div class="mb-3 mt-2">
+            <center><h2>CONTACT US</h2></center>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full name</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Phone number</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="maparea">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d904.3856786982803!2d67.03962539143966!3d24.94764345941412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x3eb3414e1b4ff3fd%3A0x83c1bc1ec3556f94!2sGul%20Shinwari%20Restaurant%D8%8C%20Shop%23%201%2C%20Hill%20View%20Apartments%D8%8C%20opposite%20Shipowner%20College%2C%20Block%20D%20North%20Nazimabad%20Town%2C%20Karachi%2C%2074200%2C%20Pakistan!3m2!1d24.9475713!2d67.0402703!5e0!3m2!1sen!2s!4v1706382405054!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+     </section>
+     <!-- contact us Section Ends -->
+
+      <!-- Feedback Section Starts -->
+    <section id="feedback">
+      <div id="Farea">
+        <h2 id="feedBackHeading">GIVE US A FEEDBACK</h2>
+        <p>Dear Valued Guests,
+
+          Thank you for choosing <span class="label">Vinegar Food Restaurant </span> for your dining experience. We genuinely appreciate the time you take to share your thoughts with us. Your feedback allows us to continuously refine and enhance our offerings, ensuring that every visit is an exceptional one.
+          </p>
+          <p>We welcome your thoughts through our feedback form. Your candid responses are vital to our commitment to excellence. Your suggestions, praises, and even constructive criticism are valued as we strive to create memorable moments for you.
+
+            Thank you for being an integral part of our culinary journey. We look forward to hearing from you and welcoming you back for another delightful experience.
+            Sincerely,
+            <span class="label">Vinegar Food Restaurant </span> Team</p>
+      </div>
+      <div id="feedbackArea">
+        <form>
+          <div class="mb-3"></div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full name</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Phone number</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div>
+            <label for="textarea">Give Feedback</label>
+            <textarea name="Feedback" id="" cols="30" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- feedback Section Ends -->
+
+    <!-- query -->
+    <section id="QuerySection">
+      <span><h2>People also ask</h2></span>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What are your opening hours?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Our restaurant is open from Monday to Sunday. The opening hours are from 11:00 AM to 10:00 PM.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Do you offer vegetarian options?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes, we have a variety of delicious vegetarian options on our menu. From appetizers to main courses, we cater to vegetarian preferences.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Can I make a reservation?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Absolutely! We encourage making reservations, especially during peak hours, to ensure we can provide you with the best dining experience. You can make a reservation online or by calling our restaurant.</div>
+          </div>
+        </div>
+    </section>
+    <!-- Footer Starts -->
+    <footer id="Footer">
+      
+        <div class="social-links">
+            <a href="#" target="_blank">Facebook </a>
+            <a href="#" target="_blank">Twitter </a>
+            <a href="#" target="_blank">Instagram </a>
+            <a href="#" target="_blank">emailaddress@gmail.com</a>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    
+    </footer>
+    <!-- Footer Ends -->
+    
+</body>
+</html>

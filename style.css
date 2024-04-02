@@ -1,0 +1,410 @@
+body{
+    background-image: url(./top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.logotext #word1{
+  color: #3f2e2a;
+}
+.logotext #word2{
+  color: #3f2e2a;
+}
+.logotext #word3{
+  color:  #FF5733;
+}
+.label{
+    color: #FF5733 ;
+    font-weight: bold;
+}
+p{
+    font-weight: 550;
+}
+
+section{
+    width: 100%;
+    height: fit-content;
+}
+#si1{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+#si2{
+    width: 100%;
+    height: 100vh;
+}
+#si3{
+    width: 100%;
+    height: 100vh;
+}
+#hero{
+    position: relative;
+    overflow: hidden;
+}
+/* Styles for carousel text */
+.carousel-caption h1 {
+    color: #FF5733; 
+    font-size: 3rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+  }
+  
+  .carousel-caption h3 {
+    color:  #FFF; 
+    font-size: 2rem; 
+  }
+  
+  .carousel-caption h6 {
+    color: #FFF; 
+    font-size: 1.2rem; 
+  }
+  
+ 
+  .carousel-caption button {
+    background-color: #FF5733; 
+    color: #FFF; 
+    border: none; 
+    padding: 15px 30px;
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border-radius: 30px; 
+  }
+  
+  .carousel-caption button:hover {
+    background-color: #C70039; 
+  }
+.carousel-caption{
+ 
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    color: white;
+    transition: 0.5s;
+    text-align: left !important;
+}
+#navbarNav li{
+    font-weight: 550;
+}
+#navbarNav li:hover{
+    color: #FF5733; 
+    border-bottom: 2px solid #FF5733; 
+    font-weight: 700;
+}
+
+
+#carouselExampleDark{
+    top: 0%;
+    overflow: hidden;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+}
+#aboutusimg{
+    animation: circular 2.5s linear infinite;
+}
+#glazedHoney{
+    animation: circular 2.5s linear infinite;
+}
+.catimg{
+    animation: circular 2.5s linear infinite;
+}
+.awardsimg{
+    animation: circular 2.5s linear infinite;
+}
+/* Key Frames */
+@keyframes circular {
+    0%{
+        border-radius: 59% 41% 71% 29% / 40% 48% 52% 60% ;
+    }
+    25%{
+        border-radius: 54% 46% 59% 41% / 46% 51% 49% 54% ;
+        
+    }
+    50%{
+        border-radius: 45% 55% 65% 35% / 53% 45% 55% 47% ;
+
+      
+    }
+    100%{
+       
+        border-radius:59% 41% 71% 29% / 40% 48% 52% 60% ;
+    }
+}
+/* Rohan Starts */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    width: 30em;
+    border: 1px solid rgb(177, 180, 184);
+    padding: 1%;
+    border-radius: 0.8em;
+    border-radius: 19px;
+    background: #e6e6fa;
+    background: rgba( 255, 87, 51, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+  }
+  #glazedHoney {
+    height: fit-content;
+  }
+  iframe {
+    width: 25em;
+    height: 20em;
+    border-radius: 3em;
+    border-radius: 19px;
+    background: #e0e0e0;
+    
+  }
+  #formarea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    margin-bottom: 10%;
+  }
+
+  #feedback {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+  #feedBackHeading {
+    color: #FF5733;
+    width: 80%;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  #feedbackArea {
+    display: flex;
+   
+  }
+
+  #Farea{
+    margin-left: 3%;
+    width: 50%;
+    
+  }
+  #container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #imageDiv {
+    width: 50%;
+  }
+  
+  #textBoxDiv {
+    width: 40%;
+    /* display: block; */
+  }
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #feedback {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #textBoxDiv {
+      align-items: center;
+      text-align: center;
+    }
+    #formarea {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #recipeIngredient {
+      display: none;
+    }
+    #maparea {
+      margin-top: 2em;
+    }
+  }
+  #maparea {
+    margin-top: 2em;
+  }
+  
+  #recipeIngredient {
+    display: block;
+  }
+  nav {
+    margin-top: 10px;
+    text-align: center;
+  }
+  #QuerySection {
+    margin-top: 6em;
+  }
+  .bi-facebook {
+    background-color: white;
+  }
+  #mainHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 425px) {
+    #mainHeading {
+      font-size: 2rem;
+    }
+    #recipeName {
+      font-size: 1.5rem;
+    }
+    #recipeIngredient {
+      font-size: 1rem;
+    }
+    form{
+      width: 20em;
+    }
+    #feedBackHeading{
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 375px){
+    body{
+      margin: 0%;
+    }
+    iframe{
+      width: 20em;
+    }
+  }
+  @media screen and (max-width:320px){
+    form{
+      width: 18em;
+    }
+    iframe{
+      width: 18em;
+    }
+  }
+/* Rohan Ends */
+/* Rafay Css */
+#awards{
+   
+ 
+    align-items: center;
+}
+#catheading{
+font-size: 3rem;
+color: #FF5733;
+text-decoration: underline #f5bcaf; 
+}
+#awardheading{
+    font-size: 3rem;
+    color: #FF5733;
+    text-decoration: underline #f5bcaf; 
+}
+/* Ashraf css */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery-overlay p {
+  margin: 0;
+  text-align: center;
+}
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+.cardimgs{
+  width: 285px;
+  height: 230px;
+}
+.card{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.orderNow{
+  background-color: #FF5733; 
+  color: #FFF; 
+  border: none; 
+  padding: 15px 30px;
+  font-size: 1.2rem; 
+  text-transform: uppercase; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  border-radius: 30px; 
+}
+.orderNow:hover{
+  background-color: #C70039; 
+}
